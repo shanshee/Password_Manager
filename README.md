@@ -16,7 +16,7 @@ Overall, the time complexity of the provided code is O(1), which means the time 
 
 Space Complexity:
 
-generate_password() function: The space complexity of this function mainly depends on the space used to store the generated password and the symbols and alphabet lists. The size of the password is constant, as it has a fixed length specified by the length variable (12 in this case). The symbols list and alphabet string are also fixed and do not depend on the input size. Hence, the space complexity of this function is O(1).
+generate_password() function: The space complexity of this function mainly depends on the space used to store the generated password and the symbols and alphabet lists. Given that the length variable (12 in this case) specifies a fixed length for the password, its size is constant. The "symbols" list and alphabet string are also fixed and do not depend on the input size. Hence, the space complexity of this function is O(1).
 
 add_password() function: The space complexity of this function is also O(1) because it uses a constant amount of space to store the website, email, and password values, regardless of the size of the data.
 
