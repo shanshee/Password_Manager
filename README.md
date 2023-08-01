@@ -20,6 +20,6 @@ generate_password() function: The space complexity of this function mainly depen
 
 add_password() function: The space complexity of this function is also O(1) because it uses a constant amount of space to store the website, email, and password values, regardless of the size of the data.
 
-Overall, the space complexity of the provided code is O(1), which means the amount of memory used is constant and not dependent on the size of the input or the number of iterations in the generate_password() function.
+Overall, the space complexity of the code is O(1), which means the amount of memory used is constant and not dependent on the size of the input or the number of iterations in the generate_password() function.
 
 In summary, the code has both time and space complexities of O(1), making it efficient and suitable for most practical purposes, as the execution time and memory usage remain constant regardless of the input size.
